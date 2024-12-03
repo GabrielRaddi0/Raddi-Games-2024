@@ -48,15 +48,20 @@ header p {
     margin-bottom: 20px;
 }
 
+.jogo a {
+    display: inline-block;
+    position: relative;
+}
+
 .jogo img {
-    width: 150px;  /* Novo tamanho de imagem */
-    height: 100px; /* Novo tamanho de imagem */
+    width: 150px;  /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
     border-radius: 8px;
     transition: transform 0.3s ease-in-out; /* Animação de zoom */
 }
 
 .jogo img:hover {
-    transform: scale(1.2); /* Aumenta um pouco mais ao passar o mouse */
+    transform: scale(1.2); /* Aumenta a imagem ao passar o mouse */
 }
 
 footer {
